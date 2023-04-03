@@ -1,0 +1,230 @@
+@font-face {
+    font-family: iranYEKANregular;
+    src: url(./assets/fonts/iranyekanwebregular.woff);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    font-family: iranYEKANregular;
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin-left: 30px;
+    color: #737789;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .family-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .family-header button {
+    border: 0 solid;
+    background-color: #3094ea;
+    color: white;
+    font-family: iranYEKANregular;
+    border-radius: 25px;
+    padding: 6px 15px;
+    width: fit-content;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.banner img {
+    border-radius: 30px;
+}
+
+.intro-account {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.intro-account .segmnt {
+    width: 400px;
+    height: 400px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    font-family: iranYEKANregular;
+}
+
+.description-second {
+    display: flex;
+    flex-direction: row;
+    font-family: iranYEKANregular;
+    margin-bottom: 40px;
+}
+
+.description p {
+    line-height: 40px;
+    color: #737789;
+}
+
+.description h2 {
+    color: #3094ea;
+}
+
+.parser {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 100px;
+}
+
+.line-perser1 {
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+    background: #737789;
+    margin-right: 10px;
+}
+
+.line-perser2 {
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+    background: #3094ea;
+    margin-right: 10px;
+}
+
+.line-perser3 {
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+    background: #737789;
+}
+
+
+.card-price {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.card-price img {
+    align-self: center;
+}
+
+.card-price .price {
+    height: 200px;
+    width: 200px;
+    background-color: #ebf4fc;
+    border-radius: 25px;
+    font-family: iranYEKANregular;
+    padding: 20px;
+}
+
+.card-price .price h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-price .price p {
+    color: #3094ea;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+.line-dot1 {
+    width: 30px;
+    height: 30px;
+    background-color: #3094ea;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.line-dot2 {
+    width: 30px;
+    height: 30px;
+    background-color: #ff3c00;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.line-dot3 {
+    width: 30px;
+    height: 30px;
+    background-color: #00ff40;
+    border-radius: 50%;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.social h2 {
+    color: #3094ea;
+    font-family: iranYEKANregular;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.social .card {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 0 12px 0 #ddd;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.social .card .img {
+    border-radius: 50%;
+    border: 4px solid #3094ea;
+}
+
+.social .op {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social .card p {
+    font-family: iranYEKANregular;
+    color: #737789;
+}
+
+.social .card h5 {
+    font-family: iranYEKANregular;
+}
+
+.jis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

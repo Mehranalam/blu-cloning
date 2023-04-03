@@ -1,6 +1,6 @@
-# Zarinpal-cloning
+# blu-cloning
 
-Construction of zarinpal.com homepage from zero to one hundred.
+Construction of https://blubank.sb24.ir/ homepage from zero to one hundred.
 
 see the [album for show output](https://github.com/Mehranalam/blu-cloning/blob/main/assets/README.md)
 
@@ -13,6 +13,4 @@ todo :
 - [ ] to be responsive page.
 
 - [ ] complement of footer.
-
-- [ ] create login and sign up page.
 
